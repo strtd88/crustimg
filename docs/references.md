@@ -1,4 +1,13 @@
+# References used
 
+## rust
+* https://docs.rs/clap/latest/clap/
+* https://docs.rs/clap/latest/clap/struct.Command.html
+* https://docs.rs/clap/latest/clap/_tutorial/index.html
+* https://docs.rs/clap/latest/clap/_derive/index.html
+* https://docs.rs/clap/latest/clap/_cookbook/cargo_example/index.html
+* https://docs.rs/clap/latest/clap/_faq/index.html#when-should-i-use-the-builder-vs-derive-apis
+* https://docs.rs/clap/latest/clap/_faq/index.html
 
 ### Libraries
 https://github.com/atanunq/viuer
@@ -7,6 +16,10 @@ https://docs.rs/image/latest/image/
 
 #### Photon
 https://silvia-odwyer.github.io/photon/guide/native-tutorial/
+
+#### yotiosoft
+* https://github.com/yotiosoft/librusimg
+* https://yotio.jp
 
 #### image resize and some simple stuff
 https://docs.rs/raster/latest/raster/editor/index.html
