@@ -1,0 +1,33 @@
+[package]
+name = "crustimg"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# For parsing command-line arguments
+clap = { version = "4.5.7", features = ["derive"] }
+# For robust error handling
+anyhow = "1.0.86"
+# For image manipulation (loading, saving, resizing, format conversion)
+image = { version = "0.24.9", default-features = false, features = [
+    "jpeg",
+    "png",
+    "bmp",
+    "gif",
+    "ico",
+    "tga",
+    "tiff",
+    "webp",
+] }
+# For displaying images directly in the terminal
+viuer = "0.8.0"
+# For async operations (used by viuer and for general future-proofing)
+tokio = { version = "1.38.0", features = ["full"] }
+ratatui = "0.26"
+crossterm = "0.27"
+walkdir = "2.4"
+kamadak-exif = "0.6.1"
+photon-rs = "0.3.3"
+nom-exif = "2.5.4"
+time = "0.2.1"
+imagesize = "0.14"
