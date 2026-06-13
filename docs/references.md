@@ -61,3 +61,8 @@ https://ghostscript.readthedocs.io/en/latest/
 
 ##### I dont know but this might be useful
 * https://www.youtube.com/watch?v=-Z_0jxhOxzQ
+
+
+#### SVG
+* https://github.com/codedstructure/svgdx
+* https://github.com/linebender/resvg
